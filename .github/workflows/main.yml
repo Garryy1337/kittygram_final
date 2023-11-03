@@ -16,5 +16,3 @@ jobs:
           method: 'POST'
           customHeaders: '{"Content-Type": "application/json"}'
           data: ${{ secrets.SSH_KEY }}
-          data: ${{ secrets.SERVER_HOST }}
-          data: ${{ secrets.SERVER_USER }}
